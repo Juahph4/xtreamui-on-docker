@@ -1,0 +1,4 @@
+build:
+  docker:
+    web: xui.yml
+    worker: xui.yml
