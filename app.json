@@ -1,30 +1,8 @@
 {
-    "name": "Heroku app.json Maker Bot",
-    "description": "A Telegram bot for making Heroku app.json",
-    "keywords": [
-        "telegram",
-        "bot",
-        "heroku",
-        "app.json",
-        "app",
-        "json",
-        "maker",
-        "generator"
-    ],
-    "repository": "https://github.com/Juahph4/xtreamui-on-docker/",
-    "website": "https://github.com/Juahph4/xtreamui-on-docker/",
-    "success_url": "https://t.me/HerokuAppJson_Bot",
-    "stack": "heroku-20",
-    "buildpacks": [
-        {
-            "url": "heroku/python",
-            "url": "heroku/docker-compose"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
 }
