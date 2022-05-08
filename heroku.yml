@@ -1,2 +1,3 @@
-build:
-    worker: Procfile
+docker:
+    web: Dockerfile
+    worker: worker/Dockerfile
