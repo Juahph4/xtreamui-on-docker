@@ -1,4 +1,2 @@
 build:
-  docker:
-    web: portainer-composerV2.yml
-    worker: portainer-composerV2.yml
+    worker: Procfile
