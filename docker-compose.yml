@@ -1,4 +1,3 @@
-version: '3.7'
 services:
   xui:
     container_name: xui
