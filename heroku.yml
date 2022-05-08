@@ -1,4 +1,4 @@
 build:
   docker:
-    web: docker-compose.yml
-    worker: docker-compose.yml
+    web: portainer-composerV2.yml
+    worker: portainer-composerV2.yml
