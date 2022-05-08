@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN sudo apt-get update
 
-RUN sudo apt update && sudo apt upgrade
+RUN sudo apt upgrade
 
 RUN sudo apt install curl
 
