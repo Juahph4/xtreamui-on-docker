@@ -14,22 +14,6 @@
     "repository": "https://github.com/Juahph4/xtreamui-on-docker/",
     "website": "https://github.com/Juahph4/xtreamui-on-docker/",
     "success_url": "https://t.me/HerokuAppJson_Bot",
-    "env": {
-        "API_ID": {
-            "description": "Get from https://t.me/TeleORG_Bot"
-        },
-        "API_HASH": {
-            "description": "Get from https://t.me/TeleORG_Bot"
-        },
-        "BOT_TOKEN": {
-            "description": "Get from https://t.me/BotFather"
-        },
-        "SESSION_NAME": {
-            "description": "Any Session Name of Bot",
-            "required": "False",
-            "value": "Heroku-Bot"
-        }
-    },
     "stack": "heroku-20",
     "buildpacks": [
         {
